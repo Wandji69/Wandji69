@@ -5,7 +5,7 @@ love for helping others.
 
 A brief about me and what I do:
 
-- 🔭 I’m currently working on building the next School Management System(Schola), contributing to Open source (Mediawiki and extensions), building the next POS for African businesses (with hardware integration)
+- 🔭 I’m currently working on building the next School Management System(Schola), contributing to Open source (Mediawiki and extensions), building POS (TCPOS) for African businesses (with hardware integration)
 - 🌱 I’m currently learning GoLang, Python, and System Architecture
 - 👯 I’m looking to collaborate on open-source projects, help others, and build
 - 🤔 I’m looking for help with ideas, technology consultation, fixing bugs, and building features (changing the world one line of code at a time)
