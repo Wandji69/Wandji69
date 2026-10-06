@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collins Wandji — Software Engineer</title>
+    <meta name="description" content="Collins Wandji is a software engineer in Buea, Cameroon, working on APIs, web applications, DevOps, and open source, including MediaWiki.">
+    <link rel="canonical" href="https://wandji69.github.io/Wandji69/">
+    <meta property="og:title" content="Collins Wandji — Software Engineer">
+    <meta property="og:description" content="Software engineer building web applications, APIs, and open-source tools, including contributions to MediaWiki.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wandji69.github.io/Wandji69/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Collins Wandji — Software Engineer">
+    <meta name="twitter:description" content="Software engineer building web applications, APIs, and open-source tools, including contributions to MediaWiki.">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+      (function () {
+        document.documentElement.classList.add("js");
+        try {
+          var stored = localStorage.getItem("theme");
+          if (stored === "light" || stored === "dark") {
+            document.documentElement.setAttribute("data-theme", stored);
+            return;
+          }
+        } catch (e) {}
+        var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+      })();
+    </script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top">Collins Wandji</a>
+        <nav id="site-nav" class="nav" data-nav aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#experience">Experience</a>
+          <a href="#open-source">Open Source</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme">
+            <span class="when-light">Dark</span>
+            <span class="when-dark">Light</span>
+          </button>
+          <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="wrap">
+          <h1 id="hero-heading">Collins Wandji</h1>
+          <p class="kicker">Software Engineer</p>
+          <p class="lede">I build reliable web applications and APIs, with a focus on backend engineering, deployment, and open-source software.</p>
+          <div class="actions">
+            <a class="button" href="#work">View my work</a>
+            <a class="button button-quiet" href="https://github.com/Wandji69" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> (opens in a new tab)</span></a>
+            <a class="button button-quiet" href="resume/resume.pdf">Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section" aria-labelledby="about-heading">
+        <div class="wrap narrow">
+          <h2 id="about-heading">About</h2>
+          <p>I am a software and DevOps engineer focused on secure, scalable APIs in startup and open-source environments. Most of my work is in PHP with Laravel, JavaScript and TypeScript, Python, and Linux-based infrastructure.</p>
+          <p>I lead engineering at Tech Chantier on a point-of-sale product and a multi-tenant website platform. Other recent work includes document upload and data modeling, access control for a health platform, and school administration software.</p>
+          <p>I contribute to MediaWiki and Wikidata tools, mentor developers through Wiki Mentor Africa, and manage Google Developer Group Buea. I am based in Buea, Cameroon, and open to remote work and relocation.</p>
+        </div>
+      </section>
+
+      <section id="work" class="section" aria-labelledby="work-heading">
+        <div class="wrap">
+          <h2 id="work-heading">Selected work</h2>
+          <p class="section-intro">Products and applications I am working on now.</p>
+          <div class="project-grid">
+            <article class="project">
+              <h3>Tech Chantier PoS</h3>
+              <p class="project-kicker">Software engineering manager</p>
+              <p>Point-of-sale product for businesses, with hardware integration, and a multi-tenant website platform so each client can manage their own site content.</p>
+              <p class="field-label">What I did</p>
+              <p>I research and design system flow, review code, support clients, and oversee the multi-tenant website work. I also manage and follow up with interns.</p>
+              <p class="field-label">Technologies</p>
+              <ul class="tech-list" aria-label="Technologies for Tech Chantier PoS">
+                <li>PHP</li>
+                <li>TypeScript</li>
+                <li>Laravel</li>
+                <li>React</li>
+                <li>React Native</li>
+              </ul>
+            </article>
+
+            <article class="project">
+              <h3>Schola</h3>
+              <p class="project-kicker">Software engineer</p>
+              <p>School management system, plus a product that gives schools an institutional website for activities and news.</p>
+              <p class="field-label">What I did</p>
+              <p>I recommend and test features, train school administrators, work with school database administrators, and help build and deploy the institutional websites.</p>
+            </article>
+
+            <article class="project">
+              <h3>WdTmCollab</h3>
+              <p class="project-kicker">Developer and maintainer · Ongoing</p>
+              <p>Ongoing application. I develop and maintain it.</p>
+              <p class="field-label">Technologies</p>
+              <ul class="tech-list" aria-label="Technologies for WdTmCollab">
+                <li>TypeScript</li>
+                <li>Node.js</li>
+                <li>Next.js</li>
+                <li>React</li>
+              </ul>
+            </article>
+
+            <article class="project">
+              <h3>WdAudioLex</h3>
+              <p class="project-kicker">Developer and maintainer · Ongoing</p>
+              <p>Ongoing application. I develop and maintain it.</p>
+              <p class="field-label">Technologies</p>
+              <ul class="tech-list" aria-label="Technologies for WdAudioLex">
+                <li>TypeScript</li>
+                <li>Python</li>
+                <li>Next.js</li>
+                <li>React</li>
+                <li>Flask</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section" aria-labelledby="experience-heading">
+        <div class="wrap">
+          <h2 id="experience-heading">Experience</h2>
+          <div class="roles">
+            <article class="role">
+              <div class="role-header">
+                <div>
+                  <h3>Tech Chantier</h3>
+                  <p class="role-title">Software Engineering Manager</p>
+                </div>
+                <p class="role-meta">Buea, Cameroon · <time datetime="2024-05">May 2024</time> – Present</p>
+              </div>
+              <ul>
+                <li>Research and design system flow using established engineering practices.</li>
+                <li>Manage interns, review code, and support clients.</li>
+                <li>Collaborate on features that improve how clients use the platform.</li>
+                <li>Oversee a multi-tenant website product so each client can manage their own content.</li>
+              </ul>
+              <ul class="tech-list" aria-label="Technologies at Tech Chantier">
+                <li>PHP</li>
+                <li>TypeScript</li>
+                <li>Laravel</li>
+                <li>React</li>
+                <li>React Native</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <div class="role-header">
+                <div>
+                  <h3>TekSynapse.AI Limited</h3>
+                  <p class="role-title">Software Engineer</p>
+                </div>
+                <p class="role-meta">Buea, Cameroon · <time datetime="2023-01">January 2023</time> – Present</p>
+              </div>
+              <ul>
+                <li>Improve the Schola application through feature recommendations, testing, and training for school administrators.</li>
+                <li>Work with school database administrators on how the system is used.</li>
+                <li>Build and deploy a product that gives schools an institutional website for activities and news.</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <div class="role-header">
+                <div>
+                  <h3>Wikimedia Foundation</h3>
+                  <p class="role-title">Software Engineer, seasonal contributor</p>
+                </div>
+                <p class="role-meta">Remote · <time datetime="2019-11">November 2019</time> – Present</p>
+              </div>
+              <ul>
+                <li>Write integration tests and fix bugs in MediaWiki extensions, including PageForms.</li>
+                <li>Collaborated on foreign resource management in PageForms so extensions can manage external libraries.</li>
+                <li>Build tools that use the MediaWiki action API, SPARQL, and Wikidata APIs to retrieve and update Wikidata entities and lexemes.</li>
+                <li>Contribute to Wikibase, Echo, and MediaWiki core, and review code on the team.</li>
+              </ul>
+              <ul class="tech-list" aria-label="Technologies at Wikimedia Foundation">
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Python</li>
+                <li>MySQL</li>
+                <li>Next.js</li>
+                <li>React</li>
+                <li>Toolforge</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <div class="role-header">
+                <div>
+                  <h3>Jalpha Health</h3>
+                  <p class="role-title">Full Stack Developer</p>
+                </div>
+                <p class="role-meta">Remote · <time datetime="2025-09">September 2025</time> – <time datetime="2025-12">December 2025</time></p>
+              </div>
+              <ul>
+                <li>Designed platform features for security and scalability in healthcare workflows.</li>
+                <li>Implemented role-based access control, permission models, and API modules for user access.</li>
+                <li>Tested, debugged, and fixed critical components used by health professionals.</li>
+                <li>Improved table relationships, removed redundant columns, and integrated migration schemas.</li>
+              </ul>
+              <ul class="tech-list" aria-label="Technologies at Jalpha Health">
+                <li>TypeScript</li>
+                <li>Node.js</li>
+                <li>Next.js</li>
+                <li>React</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <div class="role-header">
+                <div>
+                  <h3>Victoria Technologies</h3>
+                  <p class="role-title">Software Engineer</p>
+                </div>
+                <p class="role-meta">Remote · <time datetime="2024-08">August 2024</time> – <time datetime="2025-04">April 2025</time></p>
+              </div>
+              <ul>
+                <li>Built API endpoints for secure document and image uploads, using temporary and permanent S3 storage and partial uploads so large files can be sent.</li>
+                <li>Modeled comments, documents, images, and watchers with polymorphic relationships.</li>
+                <li>Worked on frontend performance and critical bugs, fixing those bugs by 25% and increasing user satisfaction by about 10%.</li>
+                <li>Built reusable components for uploads, previews, comments, user input, and dashboard analytics, increasing overall app experience by 15%.</li>
+                <li>Collaborated on database models and a super-admin dashboard for clients on the platform.</li>
+              </ul>
+              <ul class="tech-list" aria-label="Technologies at Victoria Technologies">
+                <li>PHP</li>
+                <li>TypeScript</li>
+                <li>Laravel</li>
+                <li>Vue 3</li>
+                <li>Nuxt</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <div class="role-header">
+                <div>
+                  <h3>Sozo Empire Ltd</h3>
+                  <p class="role-title">Lead Software Developer</p>
+                </div>
+                <p class="role-meta">Buea, Cameroon · <time datetime="2023-10">October 2023</time> – <time datetime="2024-05">May 2024</time></p>
+              </div>
+              <ul>
+                <li>Led software development for the startup, including a team of three developers.</li>
+                <li>Worked on reliability, reducing software downtime by about 15% and increasing user engagement by about 25%.</li>
+                <li>Introduced agile workflows that increased productivity by about 30% and reduced time to market by about 25%.</li>
+                <li>Designed a data-entry and Excel import flow with PHP, JavaScript, HTML, and Bootstrap, improving flexibility and user experience by about 30%.</li>
+                <li>Migrated production to DigitalOcean and configured the LAMP stack, DNS, SSL with Certbot, and deployment workflows.</li>
+              </ul>
+              <ul class="tech-list" aria-label="Technologies at Sozo Empire">
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>Node.js</li>
+                <li>MySQL</li>
+                <li>HTML</li>
+                <li>Bootstrap</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <div class="role-header">
+                <div>
+                  <h3>Iknite Space</h3>
+                  <p class="role-title">Coach, Software and DevOps Engineer</p>
+                </div>
+                <p class="role-meta">Buea, Cameroon · <time datetime="2023-02">February 2023</time> – <time datetime="2023-09">September 2023</time></p>
+              </div>
+              <ul>
+                <li>Mentored a cross-functional group of interns and trainees.</li>
+                <li>Ran stand-ups, hackathons, and code battles, improving trainees' problem-solving skills by 15%.</li>
+                <li>Helped design CI/CD pipelines with GitHub Actions, bash, and AWS, reducing deployment failures by about 25% and improving release cycle time by about 40%.</li>
+              </ul>
+              <ul class="tech-list" aria-label="Technologies at Iknite Space">
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>React</li>
+                <li>Go</li>
+                <li>Gin</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <div class="role-header">
+                <div>
+                  <h3>Digital Renters</h3>
+                  <p class="role-title">Back End Developer</p>
+                </div>
+                <p class="role-meta">Buea, Cameroon · <time datetime="2022-09">September 2022</time> – <time datetime="2023-01">January 2023</time></p>
+              </div>
+              <ul>
+                <li>Built a listing tool so landlords can manage property uploads for rent and sale.</li>
+                <li>Consolidated service patterns and moved models and the database into a separate module.</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <div class="role-header">
+                <div>
+                  <h3>Speed Net</h3>
+                  <p class="role-title">Software Engineer</p>
+                </div>
+                <p class="role-meta">Buea, Cameroon · <time datetime="2021-07">July 2021</time> – <time datetime="2023-01">January 2023</time></p>
+              </div>
+              <ul>
+                <li>Built web applications with WordPress.</li>
+                <li>Mentored interns on software engineering practice.</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <div class="role-header">
+                <div>
+                  <h3>ZIPCOIN REMIT LTD</h3>
+                  <p class="role-title">Software Intern</p>
+                </div>
+                <p class="role-meta">Remote · <time datetime="2021-04">April 2021</time> – <time datetime="2021-06">June 2021</time></p>
+              </div>
+              <ul>
+                <li>Worked on the website with Gatsby, GraphQL, and React, and corrected design issues.</li>
+                <li>Built and optimized APIs with Laravel.</li>
+                <li>Used GitLab for CI/CD and code review.</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <div class="role-header">
+                <div>
+                  <h3>OpenMRS</h3>
+                  <p class="role-title">Intern, Google Summer of Code</p>
+                </div>
+                <p class="role-meta">Buea, Cameroon · <time datetime="2019-04">April 2019</time> – <time datetime="2019-06">June 2019</time></p>
+              </div>
+              <ul>
+                <li>Built an Open Web App for OpenMRS with React, Axios, and the Yeoman generator.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section" aria-labelledby="education-heading">
+        <div class="wrap narrow">
+          <h2 id="education-heading">Education</h2>
+          <h3>University of Buea</h3>
+          <p>BSc in Electrical Engineering. Cameroon, Buea.</p>
+          <h3>Certifications</h3>
+          <ul>
+            <li>Full Stack Developer Nanodegree — Udacity (July 2022 – October 2022)</li>
+            <li>Google IT Automation with Python — Coursera</li>
+            <li>Google IT Support Specialization — Coursera</li>
+          </ul>
+          <p>English (fluent), French (communicative).</p>
+        </div>
+      </section>
+
+      <section id="skills" class="section" aria-labelledby="skills-heading">
+        <div class="wrap">
+          <h2 id="skills-heading">Technical skills</h2>
+          <div class="skill-grid">
+            <section aria-labelledby="skills-languages">
+              <h3 id="skills-languages">Languages</h3>
+              <p>JavaScript, TypeScript, PHP, Python, Go, Bash</p>
+            </section>
+            <section aria-labelledby="skills-backend">
+              <h3 id="skills-backend">Backend</h3>
+              <p>Laravel, Node.js, Express, Flask, Gin, MediaWiki</p>
+            </section>
+            <section aria-labelledby="skills-frontend">
+              <h3 id="skills-frontend">Frontend</h3>
+              <p>React, React Native, Next.js, Vue 3, Nuxt, Gatsby, HTML, Bootstrap</p>
+            </section>
+            <section aria-labelledby="skills-data">
+              <h3 id="skills-data">Databases</h3>
+              <p>MySQL, PostgreSQL</p>
+            </section>
+            <section aria-labelledby="skills-infra">
+              <h3 id="skills-infra">Infrastructure</h3>
+              <p>Docker, Docker Compose, Vagrant, GitHub Actions, DigitalOcean, AWS, Linux, S3-compatible storage</p>
+            </section>
+            <section aria-labelledby="skills-other">
+              <h3 id="skills-other">Other</h3>
+              <p>REST APIs, GraphQL, SPARQL, Wikidata, Toolforge, Git, WordPress</p>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="open-source" class="section" aria-labelledby="open-source-heading">
+        <div class="wrap narrow">
+          <h2 id="open-source-heading">Open source</h2>
+          <article class="os-item">
+            <h3>MediaWiki and Wikidata</h3>
+            <p>Contributor since 2019. I work on PageForms, Wikibase, Echo, and MediaWiki core, including integration tests and foreign resource management. I also maintain tools that read and update Wikidata with the action API and SPARQL.</p>
+            <p class="link-row">
+              <a href="https://gerrit.wikimedia.org/r/q/-author:collinschuwa@gmail.com+status:merged" target="_blank" rel="noopener noreferrer">Merged contributions on Gerrit<span class="visually-hidden"> (opens in a new tab)</span></a>
+              <a href="https://www.mediawiki.org/wiki/User_talk:Wandji_Collins" target="_blank" rel="noopener noreferrer">MediaWiki user talk<span class="visually-hidden"> (opens in a new tab)</span></a>
+            </p>
+          </article>
+          <article class="os-item">
+            <h3>Wiki Mentor Africa</h3>
+            <p>Mentor. I attend workshops, give talks, and mentor developers who want to contribute to open source.</p>
+          </article>
+          <article class="os-item">
+            <h3>Google Developer Group Buea</h3>
+            <p>Manager of the local developer community.</p>
+          </article>
+          <article class="os-item">
+            <h3>OpenMRS</h3>
+            <p>Google Summer of Code 2019 intern. I built an Open Web App with React, Axios, and Yeoman.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section" aria-labelledby="contact-heading">
+        <div class="wrap narrow">
+          <h2 id="contact-heading">Contact</h2>
+          <p class="lede">If you'd like to discuss a project, a collaboration, open-source work, or an engineering role, reach me here.</p>
+          <ul class="contact-list">
+            <li><a href="mailto:collinschuwa@gmail.com">Email me</a></li>
+            <li><a href="https://www.linkedin.com/in/wandji-collins" target="_blank" rel="noopener noreferrer">LinkedIn<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            <li><a href="https://github.com/Wandji69" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            <li><a href="https://gerrit.wikimedia.org/r/q/-author:collinschuwa@gmail.com+status:merged" target="_blank" rel="noopener noreferrer">Gerrit<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            <li><a href="resume/resume.pdf">Download resume</a></li>
+          </ul>
+          <p class="contact-note">Telegram: @Xvansic</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>Collins Wandji · Buea, Cameroon</p>
+        <p><a href="#top">Back to top</a></p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

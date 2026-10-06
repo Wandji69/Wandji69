@@ -1,44 +1,28 @@
-# Hi, I'm Collins Wandji
+# Collins Wandji — Portfolio
 
-Software engineer building web applications, APIs, and practical software systems. I work on backend engineering, DevOps, and open source, including contributions to MediaWiki.
+Static portfolio website. The GitHub profile README lives on `main`. This branch is the site.
 
-## What I do
+## Run locally
 
-- Build APIs and web applications with PHP (Laravel), JavaScript/TypeScript, and Python
-- Set up deployment and infrastructure with Docker, Linux, and CI/CD
-- Lead small engineering teams and mentor developers in local and open-source communities
+From the repository root:
 
-## Tech I work with
+```bash
+python3 -m http.server 8080
+```
 
-- **Languages:** JavaScript, TypeScript, PHP, Python, Go, Bash
-- **Backend:** Laravel, Node.js, Express, Flask, MediaWiki
-- **Frontend:** React, Next.js, Vue, Nuxt
-- **Data and infrastructure:** MySQL, PostgreSQL, Docker, GitHub Actions, DigitalOcean, Linux
+Then open http://localhost:8080
 
-## Current work
+`index.html` can also be opened directly. Theme preference is stored in the browser.
 
-- Engineering manager at Tech Chantier, on a point-of-sale product and a multi-tenant website platform
-- Schola, a school management product and institutional websites for schools
-- MediaWiki extensions and Wikidata tools, including PageForms and Wikibase
+## Update the site
 
-## Open source and community
+- Page copy is in `index.html`.
+- Visual styles and both themes are in `css/style.css`.
+- Theme toggle and the mobile menu are in `js/main.js`.
+- The public resume is `resume/resume.pdf`. Replace that file when the resume changes. Do not edit the PDF in place unless you mean to publish a new one.
 
-- Contributor to MediaWiki (PageForms, Wikibase, Echo, and MediaWiki core)
-- Mentor with Wiki Mentor Africa
-- Manager of Google Developer Group Buea
-- Google Summer of Code 2019 intern with OpenMRS
+## Deploy
 
-## Featured projects
+Pushes to `dev` run `.github/workflows/deploy.yml`, which publishes the branch with GitHub Pages. The site is served from `https://wandji69.github.io/Wandji69/`.
 
-- **Tech Chantier PoS** — point-of-sale product and multi-tenant client websites
-- **Schola** — school administration and institutional websites for schools
-- **WdTmCollab** — ongoing project I maintain (TypeScript, Node.js, Next.js, React)
-- **WdAudioLex** — ongoing project I maintain (TypeScript, Python, Next.js, React, Flask)
-
-## Connect
-
-- [GitHub](https://github.com/Wandji69)
-- [LinkedIn](https://www.linkedin.com/in/wandji-collins)
-- [Email](mailto:collinschuwa@gmail.com)
-- [Wikimedia contributions](https://gerrit.wikimedia.org/r/q/-author:collinschuwa@gmail.com+status:merged)
-- Telegram: @Xvansic
+In the repository settings, GitHub Pages needs to use **GitHub Actions** as the source. `main` stays the profile README and is not the Pages source.
